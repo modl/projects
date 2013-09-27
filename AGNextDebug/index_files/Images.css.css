@@ -1,0 +1,150 @@
+/* There is a bug with resource manager and parsing less urls hence we have this separate css file.*/
+.image {
+    background-repeat: no-repeat;
+}
+
+#markitPhotos .pic {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;   
+	background:url("/Markit/CorporateSite/ResourceManager/aGtS2rHLLH1HenoOta8E_w2/d/f/635145353864773982/Markit/CorporateSite/Content/Images/Company/OurTeam/ourteam_header_sprite.png") 0 0 no-repeat;
+}
+
+.markitLogo {
+    background-image: url("/Markit/CorporateSite/ResourceManager/mRdBhztBo4FWffngoMLbmA2/d/f/635128923698388705/Markit/CorporateSite/Content/Images/markit_logo.png");
+    height: 30px;
+    width: 110px;
+    cursor: pointer;
+}
+
+.magnifyingGlass {
+    background-image: url("/Markit/CorporateSite/ResourceManager/lUVJ1V-iWXI4iQAEDtr9BQ2/d/f/635128923696982374/Markit/CorporateSite/Content/Images/Icons/General/magnifying_glass.png");
+}
+
+.markitWeb {
+    background-image: url("/Markit/CorporateSite/ResourceManager/oLyUTgc_1dQKeli42oC7MQ2/d/f/635128923698388705/Markit/CorporateSite/Content/Images/web.png");
+}
+
+.markitWebOpacity20 {
+    background-image: url("/Markit/CorporateSite/ResourceManager/hwz3RBo2SSaHlvcc4RAGVg2/d/f/635128923698388705/Markit/CorporateSite/Content/Images/web_opacity_20.png");
+}
+
+.markitWebOpacity45 {
+    background-image: url("/Markit/CorporateSite/ResourceManager/h57x0zsl7gkoKnaQ8atR1w2/d/f/635128923698544964/Markit/CorporateSite/Content/Images/web_opacity_45.png");
+}
+
+nav .active {
+    background-image: url("/Markit/CorporateSite/ResourceManager/j5eDBp14S0-35Pyy-GYPtg2/d/f/635128923698388705/Markit/CorporateSite/Content/Images/markit_web_icon.png");
+    background-repeat: no-repeat;
+    background-position: -11px -4px;
+}
+
+.telephone {
+    background-image: url("/Markit/CorporateSite/ResourceManager/KPwaAbVqWjwbNyo7tzZTxQ2/d/f/635128923696982374/Markit/CorporateSite/Content/Images/Icons/Product/phone_no_circle.png");
+}
+
+.telephone.invert {
+    background-image: url("/Markit/CorporateSite/ResourceManager/sKN1oijqd_rmBZejJHLmTQ2/d/f/635144509531487546/Markit/CorporateSite/Content/Images/Icons/General/phone_blue.png");
+}
+
+.fax {
+    background-image: url("/Markit/CorporateSite/ResourceManager/fPojofAi_fw8Do0CaUB2mw2/d/f/635128923696826115/Markit/CorporateSite/Content/Images/Icons/General/fax.png");
+}
+
+.email {
+    background-image: url("/Markit/CorporateSite/ResourceManager/RWfC0lkCmLsXd0H0ZuO02Q2/d/f/635144461251814118/Markit/CorporateSite/Content/Images/Icons/General/mail.png");
+}
+
+.mail {
+    background-image: url("/Markit/CorporateSite/ResourceManager/RWfC0lkCmLsXd0H0ZuO02Q2/d/f/635144461251814118/Markit/CorporateSite/Content/Images/Icons/General/mail.png");
+}
+
+.mail.invert {
+    background-image: url("/Markit/CorporateSite/ResourceManager/LMGFLyfmkaju6AjlAqkUEw2/d/f/635144461251814118/Markit/CorporateSite/Content/Images/Icons/General/mail_blue.png");
+}
+
+.selectButton {
+    background-image: url("/Markit/CorporateSite/ResourceManager/s9mVWMAGnCVtpPBFL-0ejA2/d/f/635131562757565422/Markit/CorporateSite/Content/Images/Company/Career/select_sprite.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.selectButton:hover {
+    background-image: url("/Markit/CorporateSite/ResourceManager/s9mVWMAGnCVtpPBFL-0ejA2/d/f/635131562757565422/Markit/CorporateSite/Content/Images/Company/Career/select_sprite.png");
+    background-repeat: no-repeat;
+    background-position: -55px 0;
+}
+
+.homePage .markitLogo {
+    background-image: url("/Markit/CorporateSite/ResourceManager/deJXtXp5z7wQ72Zv46h93g2/d/f/635134139365039686/Markit/CorporateSite/Content/Images/markit_logo_blue.png");
+}
+
+.homePage .magnifyingGlass {
+    background-image: url("/Markit/CorporateSite/ResourceManager/4rUbeHteG-hnSqzk_ns79Q2/d/f/635134139365039686/Markit/CorporateSite/Content/Images/Icons/General/magnifying_glass_gray.png");
+}
+
+#overlayWeb {
+    background-image: url("/Markit/CorporateSite/ResourceManager/DuykCWTyWY6o7M9noTVk8w2/d/f/635144090555974030/Markit/CorporateSite/Content/Images/HomeBackground.png");
+}
+
+.homePage .searchBarIcon {
+    background-image: url("/Markit/CorporateSite/ResourceManager/p98p1pT1wTXHGnW3Kf13Bg2/d/f/635133225990508860/Markit/CorporateSite/Content/Images/Icons/searchicon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.checked {
+    background-image: url("/Markit/CorporateSite/ResourceManager/DqjBGn1UGUXjNBFig2K8vA2/d/f/635153884963821445/Markit/CorporateSite/Content/Images/Icons/checkmark-icon-blue.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.night .checked {
+    background-image: url("/Markit/CorporateSite/ResourceManager/LnJVHcztuN0rSMNL0Hwspw2/d/f/635155771016466255/Markit/CorporateSite/Content/Images/Icons/checkmark-icon-white.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.checked-input {
+    background-image: url("/Markit/CorporateSite/ResourceManager/po1epzHxPUVN2h6_flrh8Q2/d/f/635153884963821445/Markit/CorporateSite/Content/Images/Icons/checkmark-icon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.close-icon {
+    background-image: url("/Markit/CorporateSite/ResourceManager/ewGJA53daY8F96m4WwF9mw2/d/f/635156388794112707/Markit/CorporateSite/Content/Images/Icons/close-icon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.homePage .closeIcon {
+    background-image: url("/Markit/CorporateSite/ResourceManager/v8zw2tpwIov09fe-5-I94g2/d/f/635143506475195910/Markit/CorporateSite/Content/Images/Icons/General/closeX.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.homePage .chartIcon {
+    background-image: url("/Markit/CorporateSite/ResourceManager/4QqwSVQNL0yNHwizr3cxzg2/d/f/635134139365039686/Markit/CorporateSite/Content/Images/Icons/charticon.png");
+    background-position: center;
+}
+
+.commentaryIcon {
+    background-image: url("/Markit/CorporateSite/ResourceManager/c3d9hIcwrzCGjXrUkKUYcw2/d/f/635133225990508860/Markit/CorporateSite/Content/Images/Icons/commentaryicon.png");
+}
+
+.releasesModuleView .loading {
+    background-image: url("/Markit/CorporateSite/ResourceManager/BBItfw4ODKYasTndVfGbkA2/d/f/635128923696982374/Markit/CorporateSite/Content/Images/Icons/General/spinner2.gif");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    height: 60px !important;
+    margin: 0;
+    padding: 0;
+    width: 60px !important;
+    left:550px !important;
+    top:60px !important;
+    position:relative !important;
+}
+

@@ -1,0 +1,167 @@
+/*
+This file contains styles that are consistently used within our Research Sites.
+Since the file is local to your project, feel free to adjust it to meet your project's needs.
+
+Note to Boostrap Users:
+If you use Bootstrap on your site, this file should not conflict, but does contain a few duplicate rules.
+*/
+
+/* TYPOGRAPHY */
+
+/*
+Headings:
+The <h1> - <h6> elements should be used in a manner that divides a single page into components resembling a table of contents.
+Heading elements should be used in the appropriate order. E.g. <h3> should only be used when it notes another sub-level of heading beneath an existing <h2>.
+On large sites, we recommend avoiding attaching styles to the <h1> - <h6> elements directly, and instead define appropriate styles for classes name text-heading1, text-heading2 etc.
+*/
+
+.text-heading1 {
+	font-size: 30px;
+	line-height: 36px;
+}
+
+.text-heading1 small {
+	font-size: 18px;
+}
+
+.text-heading2 {
+	font-size: 24px;
+	line-height: 36px;
+}
+
+.text-heading2 small {
+	font-size: 18px;
+}
+
+.text-heading3 {
+	font-size: 18px;
+	line-height: 27px;
+}
+
+.text-heading3 small {
+	font-size: 14px;
+}
+
+.text-heading4,
+.text-heading5,
+.text-heading6 {
+	line-height: 18px;
+}
+
+.text-heading4 {
+	font-size: 14px;
+}
+
+.text-heading4 small {
+	font-size: 12px;
+}
+
+.text-heading5 {
+	font-size: 12px;
+}
+
+.text-heading6 {
+	font-size: 11px;
+}
+
+/*Override these with site-specific rules */
+
+.text-heading1.rule,
+.text-heading2.rule,
+.text-heading3.rule,
+.text-heading4.rule,
+.text-heading5.rule {
+	border-bottom: 1px solid #EEE;
+}
+
+.text-right { text-align:right !important; }
+.text-left { text-align:left !important; }
+
+/* Override these with site-specific hex colors */
+.text-positive { color:Green; }
+.text-negative { color:Red;	}
+.text-neutral { color:Gray;	}
+
+.text-minor { font-size:90%; }
+.text-prominent { font-size:120%; }
+
+.text-bold { font-weight:bold; }
+.text-italic { font-style:italic; }
+.text-center { text-align:center; }
+.text-nowrap { white-space:nowrap; }
+.text-uppercase { text-transform:uppercase; }
+.text-lowercase { text-transform:lowercase; }
+
+/*
+SPACING:
+Override these with spacing defined in your style guide
+*/
+
+.shim { margin:5px !important; }
+.shim-top { margin-top:5px !important; }
+.shim-right { margin-right:5px !important; }
+.shim-bottom { margin-bottom:5px !important; }
+.shim-left { margin-left:5px !important; }
+.shim-flats { margin-bottom:5px !important; margin-top:5px !important; }
+.shim-sides { margin-left:5px !important; margin-right:5px !important; }
+
+.frame { margin:10px !important; }
+.frame-top { margin-top:10px !important; }
+.frame-right { margin-right:10px !important; }
+.frame-bottom { margin-bottom:10px !important; }
+.frame-left { margin-left:10px !important; }
+.frame-flats { margin-bottom:10px !important; margin-top:10px !important; }
+.frame-sides { margin-left:10px !important; margin-right:10px !important; }
+
+.gap { margin:20px !important; }
+.gap-top { margin-top:20px !important; }
+.gap-right { margin-right:20px !important; }
+.gap-bottom { margin-bottom:20px !important; }
+.gap-left { margin-left:20px !important; }
+.gap-flats { margin-bottom:20px !important; margin-top:20px !important; }
+.gap-sides { margin-left:20px !important; margin-right:20px !important; }
+
+.flush { margin:0 !important; }
+.flush-top { margin-top:0 !important; }
+.flush-right { margin-right:0 !important; }
+.flush-bottom { margin-bottom:0 !important; }
+.flush-left { margin-left:0 !important; }
+.flush-flats { margin-bottom:0 !important; margin-top:0 !important; }
+.flush-sides { margin-left:0 !important; margin-right:0 !important; }
+
+/* Miscellaneous */
+
+.todo {
+	outline:1px dotted red;
+}
+
+/* Accessibility */
+
+.offscreen {
+	clip: rect(1px 1px 1px 1px);
+	height:1px;
+	overflow:hidden;
+	position:absolute;
+	top:auto;
+	width:1px;
+}
+
+/* From Boostrap */
+
+.clearfix {	*zoom: 1; }
+
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	line-height: 0;
+	content: "";
+}
+
+.clearfix:after { clear: both; }
+
+.pull-right { float: right !important; }
+.pull-left { float: left !important; }
+.hide { display: none; }
+.show { display: block; }
+.invisible { visibility: hidden; }
+.affix { position: fixed; }
